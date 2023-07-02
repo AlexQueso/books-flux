@@ -5,6 +5,10 @@ metadata:
   namespace: books
 spec:
   replicas: 1
+  template:
+    metadata:
+      labels:
+        app: books
   selector:
     matchLabels:
       app: books
