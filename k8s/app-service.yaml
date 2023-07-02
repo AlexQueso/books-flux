@@ -12,5 +12,4 @@ spec:
       targetPort: 8881
   selector:
     name: books
-    version: "1.0.0"
   type: NodePort
