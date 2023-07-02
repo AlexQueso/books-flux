@@ -5,13 +5,13 @@ metadata:
   namespace: books
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: books
   template:
     metadata:
       labels:
         app: books
-  selector:
-    matchLabels:
-      app: books
     spec:
       containers:
         - name: books
