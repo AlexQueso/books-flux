@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: books
-          image: booksapp:1.0.0
+          image: books:1.0.0
           ports:
             - name: http
               containerPort: 8881
