@@ -3,14 +3,11 @@ kind: Service
 metadata:
   name: books
   labels:
-    name: books
     app: books
   namespace: books
 spec:
   ports:
-    - name: http
-      port: 8080
-      targetPort: 8881
+    - port: 8881
   selector:
-    name: books
+    app: books
   type: NodePort
