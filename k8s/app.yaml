@@ -8,11 +8,6 @@ spec:
   selector:
     matchLabels:
       app: books
-  template:
-    metadata:
-      labels:
-        app: books
-        version: "1.0.0"
     spec:
       containers:
         - name: books
