@@ -12,7 +12,7 @@ spec:
     metadata:
       labels:
         app: books
-        version:: "1.0.0"
+        version: "1.0.0"
     spec:
       containers:
         - name: books
