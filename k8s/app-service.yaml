@@ -4,6 +4,7 @@ metadata:
   name: books
   labels:
     name: books
+    app: books
   namespace: books
 spec:
   ports:
