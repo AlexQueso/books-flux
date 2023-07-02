@@ -4,6 +4,7 @@ metadata:
   name: mysql
   labels:
     name: mysql
+  namespace: books
 spec:
   ports:
     - name: jdbc
